@@ -10,8 +10,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -ansi -pedantic -std=c99 -O2 $(GDAL_CFLAGS) $(EXTRA_CFLAGS)
 LDFLAGS = $(GDAL_LDFLAGS) $(EXTRA_LDFLAGS)
 
-all: gdal_z2rgb
+all: gdaldem_web
 
 clean:
-	rm -f gdal_z2rgb
+	rm -f gdaldem_web
 
